@@ -1,0 +1,811 @@
+2025-04-01 03:02:10,444 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:02:10,447 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:02:10,448 - fastapi-app - INFO - Request completed: GET / - Took: 0.0042s
+2025-04-01 03:02:16,965 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:02:16,966 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:02:16,966 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 03:02:26,020 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:02:26,021 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:02:26,023 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0037s
+2025-04-01 03:03:22,321 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:03:22,322 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:03:22,322 - fastapi-app - INFO - Request completed: GET / - Took: 0.0011s
+2025-04-01 03:03:22,393 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 03:03:22,394 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0008s
+2025-04-01 03:03:34,442 - fastapi-app - INFO - Request started: GET /hellth
+2025-04-01 03:03:34,443 - fastapi-app - INFO - Request completed: GET /hellth - Took: 0.0017s
+2025-04-01 03:03:40,124 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:03:40,126 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:03:40,127 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0025s
+2025-04-01 03:03:44,600 - fastapi-app - INFO - Request started: GET /erro
+2025-04-01 03:03:44,601 - fastapi-app - INFO - Request completed: GET /erro - Took: 0.0014s
+2025-04-01 03:03:46,596 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:03:46,598 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:03:46,599 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0024s
+2025-04-01 03:08:11,093 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:11,093 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:11,094 - fastapi-app - INFO - Request completed: GET / - Took: 0.0011s
+2025-04-01 03:08:14,154 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:14,155 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:14,155 - fastapi-app - INFO - Request completed: GET / - Took: 0.0010s
+2025-04-01 03:08:17,173 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:17,174 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:17,174 - fastapi-app - INFO - Request completed: GET / - Took: 0.0009s
+2025-04-01 03:08:20,192 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:20,193 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:20,193 - fastapi-app - INFO - Request completed: GET / - Took: 0.0014s
+2025-04-01 03:08:23,215 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:23,216 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:23,216 - fastapi-app - INFO - Request completed: GET / - Took: 0.0012s
+2025-04-01 03:08:26,237 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:26,238 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:26,239 - fastapi-app - INFO - Request completed: GET / - Took: 0.0021s
+2025-04-01 03:08:29,264 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:29,265 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:29,265 - fastapi-app - INFO - Request completed: GET / - Took: 0.0014s
+2025-04-01 03:08:32,281 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:32,281 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:32,282 - fastapi-app - INFO - Request completed: GET / - Took: 0.0014s
+2025-04-01 03:08:36,833 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:36,834 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:36,834 - fastapi-app - INFO - Request completed: GET / - Took: 0.0013s
+2025-04-01 03:08:37,860 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:08:37,861 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:08:37,862 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 03:08:38,889 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:08:38,890 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:08:38,891 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0021s
+2025-04-01 03:08:39,911 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:39,912 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:39,913 - fastapi-app - INFO - Request completed: GET / - Took: 0.0020s
+2025-04-01 03:08:40,938 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:08:40,939 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:08:40,940 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0025s
+2025-04-01 03:08:41,964 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:08:41,966 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:08:41,968 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0035s
+2025-04-01 03:08:42,970 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:42,971 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:42,972 - fastapi-app - INFO - Request completed: GET / - Took: 0.0030s
+2025-04-01 03:08:43,998 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:08:43,999 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:08:44,001 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0026s
+2025-04-01 03:08:45,026 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:08:45,026 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:08:45,027 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0011s
+2025-04-01 03:08:46,040 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:46,041 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:46,043 - fastapi-app - INFO - Request completed: GET / - Took: 0.0026s
+2025-04-01 03:08:47,059 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:08:47,060 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:08:47,061 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 03:08:48,083 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:08:48,084 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:08:48,085 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0024s
+2025-04-01 03:08:49,102 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:08:49,102 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:08:49,103 - fastapi-app - INFO - Request completed: GET / - Took: 0.0014s
+2025-04-01 03:08:50,120 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:08:50,121 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:08:50,122 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 03:08:51,136 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:08:51,139 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:08:51,140 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0040s
+2025-04-01 03:12:44,245 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:12:44,245 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:12:44,246 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0013s
+2025-04-01 03:13:57,603 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:13:57,604 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:13:57,605 - fastapi-app - INFO - Request completed: GET / - Took: 0.0013s
+2025-04-01 03:13:58,642 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:13:58,643 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:13:58,644 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 03:13:59,664 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:13:59,665 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:13:59,666 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0018s
+2025-04-01 03:14:00,689 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:14:00,691 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:14:00,694 - fastapi-app - INFO - Request completed: GET / - Took: 0.0050s
+2025-04-01 03:14:01,712 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:14:01,713 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:14:01,714 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0022s
+2025-04-01 03:14:02,743 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:14:02,744 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:14:02,747 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0040s
+2025-04-01 03:14:03,776 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:14:03,777 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:14:03,778 - fastapi-app - INFO - Request completed: GET / - Took: 0.0020s
+2025-04-01 03:14:04,794 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:14:04,795 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:14:04,797 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0029s
+2025-04-01 03:14:05,818 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:14:05,819 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:14:05,819 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0011s
+2025-04-01 03:14:06,838 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:14:06,839 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:14:06,840 - fastapi-app - INFO - Request completed: GET / - Took: 0.0023s
+2025-04-01 03:15:07,730 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:15:07,731 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:15:07,732 - fastapi-app - INFO - Request completed: GET / - Took: 0.0012s
+2025-04-01 03:15:08,753 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:15:08,755 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:15:08,756 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0031s
+2025-04-01 03:15:09,782 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:15:09,783 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:15:09,784 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0020s
+2025-04-01 03:15:10,810 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:15:10,811 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:15:10,813 - fastapi-app - INFO - Request completed: GET / - Took: 0.0030s
+2025-04-01 03:15:11,827 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:15:11,829 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:15:11,830 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0029s
+2025-04-01 03:15:12,832 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:15:12,833 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:15:12,834 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0024s
+2025-04-01 03:15:13,859 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:15:13,860 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:15:13,861 - fastapi-app - INFO - Request completed: GET / - Took: 0.0020s
+2025-04-01 03:15:14,888 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:15:14,889 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:15:14,891 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0029s
+2025-04-01 03:15:15,920 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:15:15,921 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:15:15,922 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0019s
+2025-04-01 03:15:16,939 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:15:16,940 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:15:16,941 - fastapi-app - INFO - Request completed: GET / - Took: 0.0017s
+2025-04-01 03:15:17,960 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:15:17,961 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:15:17,962 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0027s
+2025-04-01 03:15:18,992 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:15:18,993 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:15:18,993 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0010s
+2025-04-01 03:15:20,021 - fastapi-app - INFO - Request started: GET /
+2025-04-01 03:15:20,022 - fastapi-app - INFO - Root endpoint called
+2025-04-01 03:15:20,023 - fastapi-app - INFO - Request completed: GET / - Took: 0.0019s
+2025-04-01 03:15:21,054 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 03:15:21,055 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 03:15:21,056 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 03:15:22,077 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 03:15:22,080 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 03:15:22,084 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0069s
+2025-04-01 05:10:35,486 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:10:35,487 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:10:35,488 - fastapi-app - INFO - Request completed: GET / - Took: 0.0017s
+2025-04-01 05:13:59,652 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:13:59,653 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:13:59,654 - fastapi-app - INFO - Request completed: GET / - Took: 0.0021s
+2025-04-01 05:14:00,709 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:14:00,710 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:14:00,710 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0013s
+2025-04-01 05:14:01,730 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 05:14:01,731 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 05:14:01,732 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0028s
+2025-04-01 05:14:02,757 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:14:02,758 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:14:02,759 - fastapi-app - INFO - Request completed: GET / - Took: 0.0022s
+2025-04-01 05:14:03,788 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:14:03,788 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:14:03,790 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 05:14:04,814 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 05:14:04,814 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 05:14:04,815 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0013s
+2025-04-01 05:14:05,833 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:14:05,833 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:14:05,834 - fastapi-app - INFO - Request completed: GET / - Took: 0.0016s
+2025-04-01 05:14:06,859 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:14:06,865 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:14:06,866 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0072s
+2025-04-01 05:14:07,888 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 05:14:07,890 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 05:14:07,891 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0024s
+2025-04-01 05:14:08,911 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:14:08,913 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:14:08,914 - fastapi-app - INFO - Request completed: GET / - Took: 0.0030s
+2025-04-01 05:14:09,939 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:14:09,941 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:14:09,943 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0033s
+2025-04-01 05:14:10,962 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 05:14:10,963 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 05:14:10,965 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0031s
+2025-04-01 05:14:12,001 - fastapi-app - INFO - Request started: GET /
+2025-04-01 05:14:12,002 - fastapi-app - INFO - Root endpoint called
+2025-04-01 05:14:12,003 - fastapi-app - INFO - Request completed: GET / - Took: 0.0021s
+2025-04-01 05:14:13,022 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:14:13,023 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:14:13,025 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0027s
+2025-04-01 05:14:14,051 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 05:14:14,052 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 05:14:14,053 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0024s
+2025-04-01 05:23:58,907 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:23:58,908 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:23:58,909 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0025s
+2025-04-01 05:24:00,688 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:00,689 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:00,690 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 05:24:01,069 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:01,070 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:01,071 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 05:24:01,341 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:01,343 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:01,346 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0044s
+2025-04-01 05:24:01,607 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:01,608 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:01,609 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 05:24:01,849 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:01,850 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:01,851 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 05:24:02,100 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:02,101 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:02,102 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 05:24:02,321 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:02,322 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:02,323 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 05:24:02,522 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:02,523 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:02,524 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 05:24:02,739 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:02,740 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:02,741 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 05:24:02,931 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:02,932 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:02,934 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0026s
+2025-04-01 05:24:03,128 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:03,129 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:03,130 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0022s
+2025-04-01 05:24:03,332 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:03,333 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:03,334 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 05:24:03,570 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:03,572 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:03,574 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0036s
+2025-04-01 05:24:03,763 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:03,764 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:03,766 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 05:24:03,969 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:03,979 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:03,980 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0115s
+2025-04-01 05:24:04,154 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:04,158 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:04,159 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0059s
+2025-04-01 05:24:04,342 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:04,344 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:04,345 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 05:24:04,547 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:04,548 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:04,549 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 05:24:04,733 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:04,734 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:04,735 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 05:24:04,930 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:04,930 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:04,931 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0011s
+2025-04-01 05:24:05,184 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:05,186 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:05,187 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0032s
+2025-04-01 05:24:05,509 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:05,510 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:05,511 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0026s
+2025-04-01 05:24:05,818 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:05,819 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:05,821 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0032s
+2025-04-01 05:24:12,533 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:24:12,535 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:24:12,536 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0027s
+2025-04-01 05:51:53,845 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:53,847 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:53,847 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 05:51:54,031 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,032 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,033 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0015s
+2025-04-01 05:51:54,223 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,246 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,247 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0244s
+2025-04-01 05:51:54,419 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,420 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,421 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 05:51:54,587 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,588 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,589 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 05:51:54,767 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,768 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,768 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 05:51:54,954 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:54,956 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:54,957 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 05:51:55,125 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:55,126 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:55,127 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 05:51:55,295 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:55,295 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:55,296 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0015s
+2025-04-01 05:51:55,495 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:51:55,496 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:51:55,497 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 05:52:52,152 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:52,159 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:52,160 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0083s
+2025-04-01 05:52:52,554 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:52,556 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:52,577 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0233s
+2025-04-01 05:52:52,750 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:52,751 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:52,752 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 05:52:52,912 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:52,913 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:52,913 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0015s
+2025-04-01 05:52:53,084 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,085 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,085 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 05:52:53,229 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,232 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,234 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0050s
+2025-04-01 05:52:53,402 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,403 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,404 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 05:52:53,555 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,556 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,557 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0027s
+2025-04-01 05:52:53,729 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,736 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,736 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0079s
+2025-04-01 05:52:53,939 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:53,940 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:53,941 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0022s
+2025-04-01 05:52:54,097 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 05:52:54,097 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 05:52:54,098 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 06:04:16,233 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:16,234 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:16,235 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 06:04:16,477 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:16,478 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:16,479 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 06:04:16,693 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:16,693 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:16,694 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0015s
+2025-04-01 06:04:16,892 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:16,895 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:16,896 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0036s
+2025-04-01 06:04:17,061 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:17,062 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:17,063 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 06:04:33,293 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:33,295 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:33,297 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0031s
+2025-04-01 06:04:33,473 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:33,474 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:33,474 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 06:04:33,649 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:33,649 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:33,650 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0013s
+2025-04-01 06:04:33,805 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:33,806 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:33,806 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0010s
+2025-04-01 06:04:33,972 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:33,973 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:33,974 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 06:04:34,148 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:34,149 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:34,150 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 06:04:34,323 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:34,324 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:34,325 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 06:04:34,484 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:04:34,485 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:04:34,486 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 06:06:03,937 - fastapi-app - INFO - Request started: GET /
+2025-04-01 06:06:03,939 - fastapi-app - INFO - Root endpoint called
+2025-04-01 06:06:03,940 - fastapi-app - INFO - Request completed: GET / - Took: 0.0023s
+2025-04-01 06:06:04,977 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:06:04,978 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:06:04,979 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0014s
+2025-04-01 06:06:05,995 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 06:06:05,996 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 06:06:05,997 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0012s
+2025-04-01 06:06:07,011 - fastapi-app - INFO - Request started: GET /
+2025-04-01 06:06:07,012 - fastapi-app - INFO - Root endpoint called
+2025-04-01 06:06:07,012 - fastapi-app - INFO - Request completed: GET / - Took: 0.0012s
+2025-04-01 06:06:08,038 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:06:08,040 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:06:08,043 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0046s
+2025-04-01 06:06:09,079 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 06:06:09,080 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 06:06:09,081 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0025s
+2025-04-01 06:06:10,110 - fastapi-app - INFO - Request started: GET /
+2025-04-01 06:06:10,112 - fastapi-app - INFO - Root endpoint called
+2025-04-01 06:06:10,113 - fastapi-app - INFO - Request completed: GET / - Took: 0.0030s
+2025-04-01 06:06:11,243 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:06:11,244 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:06:11,245 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 06:06:12,278 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 06:06:12,279 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 06:06:12,280 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0022s
+2025-04-01 06:06:13,297 - fastapi-app - INFO - Request started: GET /
+2025-04-01 06:06:13,298 - fastapi-app - INFO - Root endpoint called
+2025-04-01 06:06:13,300 - fastapi-app - INFO - Request completed: GET / - Took: 0.0026s
+2025-04-01 06:06:14,327 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:06:14,328 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:06:14,329 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 06:06:15,353 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 06:06:15,354 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 06:06:15,355 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0018s
+2025-04-01 06:06:16,379 - fastapi-app - INFO - Request started: GET /
+2025-04-01 06:06:16,381 - fastapi-app - INFO - Root endpoint called
+2025-04-01 06:06:16,382 - fastapi-app - INFO - Request completed: GET / - Took: 0.0025s
+2025-04-01 06:06:17,406 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 06:06:17,407 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 06:06:17,409 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 06:06:18,433 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 06:06:18,434 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 06:06:18,435 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0015s
+2025-04-01 15:17:19,445 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:17:19,445 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:17:19,446 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0012s
+2025-04-01 15:17:19,806 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:17:19,808 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:17:19,809 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0033s
+2025-04-01 15:17:20,053 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:17:20,054 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:17:20,055 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0014s
+2025-04-01 15:17:20,274 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:17:20,276 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:17:20,277 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0031s
+2025-04-01 15:17:20,465 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:17:20,467 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:17:20,468 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0032s
+2025-04-01 15:18:26,879 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:18:26,880 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:18:26,882 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0025s
+2025-04-01 15:18:53,061 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:18:53,062 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:18:53,064 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0029s
+2025-04-01 15:19:02,581 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:02,584 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:02,585 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0040s
+2025-04-01 15:19:03,068 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:03,069 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:03,069 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0015s
+2025-04-01 15:19:03,354 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:03,357 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:03,359 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0044s
+2025-04-01 15:19:16,854 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:16,856 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:16,857 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 15:19:17,083 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:17,084 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:17,085 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 15:19:17,246 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:17,247 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:17,248 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 15:19:17,455 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:17,457 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:17,458 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0029s
+2025-04-01 15:19:17,722 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:17,724 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:17,725 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0030s
+2025-04-01 15:19:22,809 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:22,811 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:22,812 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0032s
+2025-04-01 15:19:23,157 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:23,159 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:23,160 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0028s
+2025-04-01 15:19:23,553 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:23,555 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:23,556 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0023s
+2025-04-01 15:19:23,927 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:23,927 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:23,928 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 15:19:50,629 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:50,630 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:50,631 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 15:19:50,857 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:50,858 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:50,859 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 15:19:51,010 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:51,011 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:51,017 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0070s
+2025-04-01 15:19:51,153 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:51,154 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:51,155 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 15:19:51,302 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:19:51,304 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:19:51,305 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0026s
+2025-04-01 15:19:52,033 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:52,034 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:52,035 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 15:19:52,233 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:52,234 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:52,235 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 15:19:52,427 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:52,428 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:52,429 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 15:19:52,615 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:52,617 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:52,618 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0029s
+2025-04-01 15:19:52,852 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:19:52,854 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:19:52,855 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0022s
+2025-04-01 15:21:39,728 - fastapi-app - INFO - Request started: GET /
+2025-04-01 15:21:39,729 - fastapi-app - INFO - Root endpoint called
+2025-04-01 15:21:39,731 - fastapi-app - INFO - Request completed: GET / - Took: 0.0026s
+2025-04-01 15:21:40,749 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:21:40,750 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:21:40,751 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0016s
+2025-04-01 15:21:41,768 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:21:41,770 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:21:41,771 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0028s
+2025-04-01 15:21:42,798 - fastapi-app - INFO - Request started: GET /
+2025-04-01 15:21:42,800 - fastapi-app - INFO - Root endpoint called
+2025-04-01 15:21:42,802 - fastapi-app - INFO - Request completed: GET / - Took: 0.0041s
+2025-04-01 15:21:43,830 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:21:43,831 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:21:43,833 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0021s
+2025-04-01 15:21:44,848 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:21:44,849 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:21:44,850 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0020s
+2025-04-01 15:21:45,868 - fastapi-app - INFO - Request started: GET /
+2025-04-01 15:21:45,869 - fastapi-app - INFO - Root endpoint called
+2025-04-01 15:21:45,870 - fastapi-app - INFO - Request completed: GET / - Took: 0.0024s
+2025-04-01 15:21:46,899 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:21:46,900 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:21:46,902 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 15:21:47,929 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:21:47,931 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:21:47,932 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0026s
+2025-04-01 15:21:48,963 - fastapi-app - INFO - Request started: GET /
+2025-04-01 15:21:48,963 - fastapi-app - INFO - Root endpoint called
+2025-04-01 15:21:48,964 - fastapi-app - INFO - Request completed: GET / - Took: 0.0015s
+2025-04-01 15:21:49,989 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:21:49,990 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:21:49,990 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0014s
+2025-04-01 15:21:51,015 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:21:51,016 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:21:51,018 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0030s
+2025-04-01 15:21:52,041 - fastapi-app - INFO - Request started: GET /
+2025-04-01 15:21:52,041 - fastapi-app - INFO - Root endpoint called
+2025-04-01 15:21:52,042 - fastapi-app - INFO - Request completed: GET / - Took: 0.0013s
+2025-04-01 15:21:53,069 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:21:53,070 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:21:53,071 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 15:21:54,087 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:21:54,088 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:21:54,089 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0021s
+2025-04-01 15:25:55,602 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:25:55,603 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:25:55,604 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 15:25:56,181 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:25:56,182 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:25:56,183 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0018s
+2025-04-01 15:28:07,141 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:28:07,142 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:28:07,143 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0018s
+2025-04-01 15:28:07,520 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:28:07,520 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:28:07,521 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0017s
+2025-04-01 15:28:19,684 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:28:19,685 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:28:19,685 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0011s
+2025-04-01 15:28:19,908 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:28:19,909 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:28:19,910 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0015s
+2025-04-01 15:28:20,247 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:28:20,248 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:28:20,248 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 15:28:20,471 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:28:20,499 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:28:20,500 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0292s
+2025-04-01 15:38:42,778 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:38:42,779 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:38:42,780 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0024s
+2025-04-01 15:38:43,227 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 15:38:43,229 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 15:38:43,229 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0025s
+2025-04-01 15:42:24,470 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:42:24,472 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:42:24,481 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0110s
+2025-04-01 15:42:24,701 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:42:24,702 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:42:24,703 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 15:43:51,812 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:43:51,814 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:43:51,816 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0042s
+2025-04-01 15:43:52,263 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:43:52,265 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:43:52,267 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0037s
+2025-04-01 15:43:52,498 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:43:52,499 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:43:52,502 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0041s
+2025-04-01 15:43:52,719 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 15:43:52,721 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 15:43:52,723 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0043s
+2025-04-01 16:05:40,520 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:05:40,521 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:05:40,522 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 16:05:40,743 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:05:40,744 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:05:40,745 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 16:05:41,232 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:05:41,271 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:05:41,274 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0420s
+2025-04-01 16:05:41,402 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:05:41,403 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:05:41,403 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0010s
+2025-04-01 16:17:02,790 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:17:02,791 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:17:02,792 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0019s
+2025-04-01 16:17:02,827 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 16:17:02,828 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0009s
+2025-04-01 16:17:03,165 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:17:03,166 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:17:03,167 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0018s
+2025-04-01 16:17:03,623 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:17:03,623 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:17:03,624 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0014s
+2025-04-01 16:17:04,116 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:17:04,117 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:17:04,117 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 16:23:30,883 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:23:30,885 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:23:30,886 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0031s
+2025-04-01 16:23:31,213 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:23:31,214 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:23:31,215 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0016s
+2025-04-01 16:25:04,849 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:25:04,850 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:25:04,851 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 16:25:05,561 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:25:05,562 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:25:05,563 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0015s
+2025-04-01 16:28:01,121 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:28:01,122 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:28:01,123 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 16:28:01,154 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 16:28:01,154 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0008s
+2025-04-01 16:28:01,494 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:28:01,496 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:28:01,498 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0032s
+2025-04-01 16:28:35,995 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:28:35,996 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:28:35,997 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0020s
+2025-04-01 16:28:36,026 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 16:28:36,027 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0008s
+2025-04-01 16:28:36,243 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:28:36,244 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:28:36,245 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0021s
+2025-04-01 16:38:53,681 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:38:53,683 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:38:53,684 - fastapi-app - INFO - Request completed: GET / - Took: 0.0029s
+2025-04-01 16:38:54,721 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:38:54,722 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:38:54,722 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0018s
+2025-04-01 16:38:55,742 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:38:55,743 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:38:55,751 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0097s
+2025-04-01 16:38:56,772 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:38:56,773 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:38:56,774 - fastapi-app - INFO - Request completed: GET / - Took: 0.0020s
+2025-04-01 16:38:57,791 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:38:57,792 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:38:57,793 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0012s
+2025-04-01 16:38:58,809 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:38:58,812 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:38:58,813 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0037s
+2025-04-01 16:38:59,832 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:38:59,845 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:38:59,852 - fastapi-app - INFO - Request completed: GET / - Took: 0.0200s
+2025-04-01 16:39:00,870 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:39:00,872 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:39:00,873 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0032s
+2025-04-01 16:39:01,891 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:39:01,892 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:39:01,893 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0020s
+2025-04-01 16:39:02,909 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:39:02,910 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:39:02,912 - fastapi-app - INFO - Request completed: GET / - Took: 0.0026s
+2025-04-01 16:39:03,929 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:39:03,931 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:39:03,932 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0022s
+2025-04-01 16:39:04,951 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:39:04,953 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:39:04,954 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0026s
+2025-04-01 16:39:05,981 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:39:05,981 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:39:05,982 - fastapi-app - INFO - Request completed: GET / - Took: 0.0011s
+2025-04-01 16:39:07,007 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:39:07,009 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:39:07,010 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 16:39:08,030 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:39:08,032 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:39:08,033 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0026s
+2025-04-01 16:57:19,414 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:57:19,416 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:57:19,418 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0034s
+2025-04-01 16:57:20,152 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:57:20,153 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:57:20,154 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0015s
+2025-04-01 16:57:20,992 - fastapi-app - INFO - Request started: GET /health
+2025-04-01 16:57:20,993 - fastapi-app - INFO - Health check endpoint called
+2025-04-01 16:57:20,994 - fastapi-app - INFO - Request completed: GET /health - Took: 0.0023s
+2025-04-01 16:57:21,861 - fastapi-app - INFO - Request started: GET /error
+2025-04-01 16:57:21,862 - fastapi-app - ERROR - Error endpoint called - Generating sample error
+2025-04-01 16:57:21,862 - fastapi-app - INFO - Request completed: GET /error - Took: 0.0015s
+2025-04-01 16:57:29,520 - fastapi-app - INFO - Request started: GET /
+2025-04-01 16:57:29,522 - fastapi-app - INFO - Root endpoint called
+2025-04-01 16:57:29,524 - fastapi-app - INFO - Request completed: GET / - Took: 0.0042s
+2025-04-01 17:19:07,783 - fastapi-app - INFO - Request started: GET /log
+2025-04-01 17:19:07,786 - fastapi-app - INFO - Request completed: GET /log - Took: 0.0030s
+2025-04-01 17:19:30,094 - fastapi-app - INFO - Request started: GET /log/debug
+2025-04-01 17:19:30,095 - fastapi-app - INFO - Request completed: GET /log/debug - Took: 0.0014s
+2025-04-01 17:19:37,295 - fastapi-app - INFO - Request started: GET /log
+2025-04-01 17:19:37,297 - fastapi-app - INFO - Request completed: GET /log - Took: 0.0014s
+2025-04-01 17:19:38,219 - fastapi-app - INFO - Request started: GET /log
+2025-04-01 17:19:38,220 - fastapi-app - INFO - Request completed: GET /log - Took: 0.0009s
+2025-04-01 17:19:38,254 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 17:19:38,256 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0015s
+2025-04-01 17:19:43,360 - fastapi-app - INFO - Request started: GET /hi
+2025-04-01 17:19:43,362 - fastapi-app - INFO - Request completed: GET /hi - Took: 0.0019s
+2025-04-01 17:20:34,353 - fastapi-app - INFO - Request started: GET /log
+2025-04-01 17:20:34,354 - fastapi-app - INFO - Request completed: GET /log - Took: 0.0009s
+2025-04-01 17:20:34,402 - fastapi-app - INFO - Request started: GET /favicon.ico
+2025-04-01 17:20:34,404 - fastapi-app - INFO - Request completed: GET /favicon.ico - Took: 0.0019s
+{"timestamp": "2025-04-01T08:27:42.156131", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/doc\"}"}
+{"timestamp": "2025-04-01T08:27:42.158321", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/doc\", \"duration\": \"0.0022s\"}"}
+{"timestamp": "2025-04-01T08:27:48.217349", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/docs\"}"}
+{"timestamp": "2025-04-01T08:27:48.218014", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/docs\", \"duration\": \"0.0007s\"}"}
+{"timestamp": "2025-04-01T08:27:48.365067", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/openapi.json\"}"}
+{"timestamp": "2025-04-01T08:27:48.373412", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/openapi.json\", \"duration\": \"0.0083s\"}"}
+{"timestamp": "2025-04-01T08:28:07.611209", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"POST\", \"path\": \"/log\"}"}
+{"timestamp": "2025-04-01T08:28:07.612498", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Custom log\", \"message\": \"Hello world!\"}"}
+{"timestamp": "2025-04-01T08:28:07.613605", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"POST\", \"path\": \"/log\", \"duration\": \"0.0025s\"}"}
+{"timestamp": "2025-04-01T08:32:26.311717", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"POST\", \"path\": \"/log\"}"}
+{"timestamp": "2025-04-01T08:32:26.313341", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Custom log\", \"message\": \"Hello world!\"}"}
+{"timestamp": "2025-04-01T08:32:26.314544", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"POST\", \"path\": \"/log\", \"duration\": \"0.0030s\"}"}
+{"timestamp": "2025-04-01T08:36:53.782547+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/docs\"}"}
+{"timestamp": "2025-04-01T08:36:53.783715+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/docs\", \"duration\": \"0.0012s\"}"}
+{"timestamp": "2025-04-01T08:36:53.937512+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/openapi.json\"}"}
+{"timestamp": "2025-04-01T08:36:53.941550+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/openapi.json\", \"duration\": \"0.0041s\"}"}
+{"timestamp": "2025-04-01T08:37:01.586298+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/\"}"}
+{"timestamp": "2025-04-01T08:37:01.587285+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Root endpoint called\"}"}
+{"timestamp": "2025-04-01T08:37:01.588351+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/\", \"duration\": \"0.0021s\"}"}
+{"timestamp": "2025-04-01T08:37:02.866984+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/\"}"}
+{"timestamp": "2025-04-01T08:37:02.874617+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Root endpoint called\"}"}
+{"timestamp": "2025-04-01T08:37:02.875812+00:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/\", \"duration\": \"0.0088s\"}"}
+{"timestamp": "2025-04-01T17:45:24.552048+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/\"}"}
+{"timestamp": "2025-04-01T17:45:24.553444+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Root endpoint called\"}"}
+{"timestamp": "2025-04-01T17:45:24.554452+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/\", \"duration\": \"0.0025s\"}"}
+{"timestamp": "2025-04-01T17:45:24.585976+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01T17:45:24.587029+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0011s\"}"}
+{"timestamp": "2025-04-01T17:45:25.105345+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/health\"}"}
+{"timestamp": "2025-04-01T17:45:25.106435+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Health check called\"}"}
+{"timestamp": "2025-04-01T17:45:25.107917+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/health\", \"duration\": \"0.0026s\"}"}
+{"timestamp": "2025-04-01T17:45:25.146686+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01T17:45:25.148544+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0019s\"}"}
+{"timestamp": "2025-04-01T17:45:25.594974+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/error\"}"}
+{"timestamp": "2025-04-01T17:45:25.595905+09:00", "level": "ERROR", "name": "fastapi-app", "message": "{\"event\": \"Error triggered\"}"}
+{"timestamp": "2025-04-01T17:45:25.596461+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/error\", \"duration\": \"0.0015s\"}"}
+{"timestamp": "2025-04-01T17:45:25.634045+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01T17:45:25.635241+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0013s\"}"}
+{"timestamp": "2025-04-01T17:45:27.671973+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"POST\", \"path\": \"/log\"}"}
+{"timestamp": "2025-04-01T17:45:27.673150+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Custom log\", \"message\": \"hi\"}"}
+{"timestamp": "2025-04-01T17:45:27.673957+09:00", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"POST\", \"path\": \"/log\", \"duration\": \"0.0021s\"}"}
+{"timestamp": "2025-04-01 17:47:50", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/\"}"}
+{"timestamp": "2025-04-01 17:47:50", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Root endpoint called\"}"}
+{"timestamp": "2025-04-01 17:47:50", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/\", \"duration\": \"0.0058s\"}"}
+{"timestamp": "2025-04-01 17:47:50", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01 17:47:50", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0022s\"}"}
+{"timestamp": "2025-04-01 17:47:51", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/health\"}"}
+{"timestamp": "2025-04-01 17:47:51", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Health check called\"}"}
+{"timestamp": "2025-04-01 17:47:51", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/health\", \"duration\": \"0.0023s\"}"}
+{"timestamp": "2025-04-01 17:47:51", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01 17:47:51", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0010s\"}"}
+{"timestamp": "2025-04-01 17:47:52", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/error\"}"}
+{"timestamp": "2025-04-01 17:47:52", "level": "ERROR", "name": "fastapi-app", "message": "{\"event\": \"Error triggered\"}"}
+{"timestamp": "2025-04-01 17:47:52", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/error\", \"duration\": \"0.0013s\"}"}
+{"timestamp": "2025-04-01 17:47:52", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01 17:47:52", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0009s\"}"}
+{"timestamp": "2025-04-01 17:52:40", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/health\"}"}
+{"timestamp": "2025-04-01 17:52:40", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Health check called\"}"}
+{"timestamp": "2025-04-01 17:52:40", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/health\", \"duration\": \"0.0024s\"}"}
+{"timestamp": "2025-04-01 17:52:40", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request started\", \"method\": \"GET\", \"path\": \"/favicon.ico\"}"}
+{"timestamp": "2025-04-01 17:52:40", "level": "INFO", "name": "fastapi-app", "message": "{\"event\": \"Request completed\", \"method\": \"GET\", \"path\": \"/favicon.ico\", \"duration\": \"0.0008s\"}"}
