@@ -10,19 +10,21 @@ services:
       - "8080:8080"
     volumes:
       - app_logs:/var/log/app
-    command: ["sh", "-c", "mkdir -p /var/log/app && chown -R 100:100 /var/log/app && while true; do echo $(date) ' - 로그 메시지 예제' >> /var/log/app/app.log; sleep 2; done"]
+    command: ["sh", "-c", "mkdir -p /var/log/app && while true; do echo $(date) ' - 로그 메시지 예제' >> /var/log/app/app.log; sleep 2; done"]
 
   log-collector:
-#    image: "fluent/fluentd"
-    build: ./fluentd
+    image: "fluent/fluentd"
     container_name: sidecar_logger
     depends_on:
       - app
     volumes:
       - app_logs:/fluentd/log
       - ./fluentd/conf:/fluentd/etc
+      - ./fluentd/conf:/etc/fluent
     ports:
       - "24224:24224"
+    command: ["sh", "-c", "gem install fluent-plugin-s3 && fluentd"]
+    user: root
 
 volumes:
   app_logs:
