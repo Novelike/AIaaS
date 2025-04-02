@@ -1,74 +1,94 @@
 import logging
-import json
 import time
+import json
 from fastapi import FastAPI, Request
-from datetime import datetime, timezone, timedelta
-
-# JSON 포맷터 설정
-class JSONFormatter(logging.Formatter):
-    def format(self, record):
-        log_record = {
-            "timestamp": datetime.now(timezone.utc).astimezone(timezone(timedelta(hours=9))).strftime("%Y-%m-%d %H:%M:%S"),
-            "level": record.levelname,
-            "name": record.name,
-            "message": record.getMessage(),
-        }
-        return json.dumps(log_record)
+from datetime import datetime
+from prometheus_client import Counter, Histogram, make_asgi_app
+from pytz import timezone
 
 # 로깅 설정
-log_formatter = JSONFormatter()
-file_handler = logging.FileHandler("/var/log/fastapi/app.log")
-file_handler.setFormatter(log_formatter)
 
-stream_handler = logging.StreamHandler()
-stream_handler.setFormatter(log_formatter)
+class JsonLogFormatter(logging.Formatter):
+    def format(self, record):
+        record_dict = {
+            "timestamp": datetime.now(timezone("Asia/Seoul")).strftime("%Y-%m-%d %H:%M:%S.%f")[:-3],
+            "name": record.name,
+            "level": record.levelname,
+            "message": record.getMessage(),
+        }
+        return json.dumps(record_dict)
+
+logging.basicConfig(
+    level=logging.INFO,
+    handlers=[
+        logging.FileHandler("/var/log/fastapi/app.log"),
+        logging.StreamHandler()
+    ]
+)
+
+# JSON 포맷터 설정
+for handler in logging.getLogger().handlers:
+    handler.setFormatter(JsonLogFormatter())
 
 logger = logging.getLogger("fastapi-app")
-logger.setLevel(logging.INFO)
-logger.addHandler(file_handler)
-logger.addHandler(stream_handler)
 
 app = FastAPI()
 
-# 요청 및 응답 로깅 미들웨어
+# Prometheus 메트릭 설정
+REQUEST_COUNT = Counter(
+    "fastapi_requests_total",
+    "Total FastAPI HTTP requests",
+    ["method", "endpoint", "status"]
+)
+REQUEST_LATENCY = Histogram(
+    "fastapi_request_latency_seconds",
+    "FastAPI request latency in seconds",
+    ["method", "endpoint"]
+)
+
+# Prometheus 메트릭 엔드포인트 추가
+metrics_app = make_asgi_app()
+app.mount("/metrics", metrics_app)
+
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     start_time = time.time()
 
-    logger.info(json.dumps({
-        "event": "Request started",
-        "method": request.method,
-        "path": request.url.path
-    }))
+    # 요청 로깅
+    logger.info(f"Request started: {request.method} {request.url.path}")
 
     response = await call_next(request)
 
+    # 응답 시간 계산
     process_time = time.time() - start_time
-    logger.info(json.dumps({
-        "event": "Request completed",
-        "method": request.method,
-        "path": request.url.path,
-        "duration": f"{process_time:.4f}s"
-    }))
+    logger.info(f"Request completed: {request.method} {request.url.path} - Took: {process_time:.4f}s")
+
+    # Prometheus 메트릭 기록
+    # /metrics 엔드포인트는 제외
+    if not request.url.path.startswith("/metrics"):
+        REQUEST_COUNT.labels(
+            method=request.method,
+            endpoint=request.url.path,
+            status=response.status_code
+        ).inc()
+        REQUEST_LATENCY.labels(
+            method=request.method,
+            endpoint=request.url.path
+        ).observe(process_time)
 
     return response
 
 @app.get("/")
 async def root():
-    logger.info(json.dumps({"event": "Root endpoint called"}))
+    logger.info("Root endpoint called")
     return {"message": "Hello World"}
 
 @app.get("/health")
 async def health():
-    logger.info(json.dumps({"event": "Health check called"}))
+    logger.info("Health check endpoint called")
     return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
 @app.get("/error")
 async def trigger_error():
-    logger.error(json.dumps({"event": "Error triggered"}))
+    logger.error("Error endpoint called - Generating sample error")
     return {"error": "This is a sample error log message"}
-
-@app.post("/log")
-async def log_message(message: str):
-    logger.info(json.dumps({"event": "Custom log", "message": message}))
-    return {"status": "logged", "message": message}
