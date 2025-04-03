@@ -13,7 +13,7 @@ receivers:
     # webhook_configs:
     #   - url: "http://localhost:5001/" # 실제 환경에서는 실제 Webhook URL로 변경
     discord_configs:
-      - webhook_url: https://discordapp.com/api/webhooks/1356912698557988964/3uEpAoguN-jzaeaxUc0tXg1SL_kScC2oWt1rh7zMGHXmyuSNDCY_QHnte0M6O58gZD7A" # 실제 환경에서는 실제 Discord Webhook URL로 변경
+      - webhook_url: "https://discordapp.com/api/webhooks/1356912698557988964/3uEpAoguN-jzaeaxUc0tXg1SL_kScC2oWt1rh7zMGHXmyuSNDCY_QHnte0M6O58gZD7A" # 실제 환경에서는 실제 Discord Webhook URL로 변경
 
 inhibit_rules:
   - source_match:

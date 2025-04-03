@@ -1,0 +1,12 @@
+{
+  "name": "simple-custom-web-app",
+  "version": "1.0.2",
+  "description": "A simple custom web application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
