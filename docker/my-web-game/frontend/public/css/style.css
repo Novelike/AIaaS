@@ -1,0 +1,21 @@
+/* 전체 화면 및 캔버스 스타일 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#gameCanvas {
+    background-color: #111;
+    border: 2px solid #fff;
+    display: block;
+    margin: 0 auto;
+    /* 캔버스 크기는 JavaScript에서 동적으로 설정합니다. */
+}

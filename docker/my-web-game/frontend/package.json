@@ -1,0 +1,9 @@
+{
+    "name": "my-web-game-frontend",
+    "version": "1.0.0",
+    "description": "Frontend for complex web game",
+    "scripts": {
+        "start": "serve public"
+    },
+    "dependencies": {}
+}
