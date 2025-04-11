@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: frontend-deployment
+    namespace: kjh
+    labels:
+        app: my-web-game
+        tier: frontend
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: my-web-game
+            tier: frontend
+    template:
+        metadata:
+            labels:
+                app: my-web-game
+                tier: frontend
+        spec:
+            imagePullSecrets:
+                - name: kjh-repo
+            containers:
+                - name: frontend
+                  image: kc-sfacspace.kr-central-2.kcr.dev/kjh-repo/frontend:latest
+                  ports:
+                      - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: frontend-service
+    namespace: kjh
+spec:
+    selector:
+        app: my-web-game
+        tier: frontend
+    ports:
+        - protocol: TCP
+          port: 80
+          targetPort: 80
+    type: LoadBalancer

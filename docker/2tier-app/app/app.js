@@ -319,6 +319,14 @@ async function sendDiscordWebhook({ action, username, email, userId }) {
             embeds: [embed],
         });
         console.log("✅ Discord Webhook 전송 완료");
+        const logData = {
+            action: isInsert ? "INSERT" : "DELETE",
+            userId,
+            username: username || null,
+            email: email || null,
+            timestamp: new Date().toISOString(),
+        };
+        console.log("📄 로그 데이터:", JSON.stringify(logData, null, 2));
     } catch (err) {
         console.error("❌ Discord Webhook 전송 실패:", err.message);
     }

@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+    name: three-tier-app
+    annotations:
+        nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+    ingressClassName: nginx
+    rules:
+        - host: 3tier.kjh.com
+          http:
+              paths:
+                  - path: /kjh(/|$)(.*)
+                    pathType: Prefix
+                    backend:
+                        service:
+                            name: frontend
+                            port:
+                                number: 80
+---
+

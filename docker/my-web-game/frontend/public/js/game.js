@@ -19,7 +19,23 @@ let otherPlayers = {};
 let bullets = [];
 
 // Socket.io 연결 (백엔드 서버 주소에 맞게 수정)
-const socket = io("http://210.109.81.54:3000");
+const socket = io("http://my-web-game.local", {
+    transports: ["websocket"], // 웹소켓 전송 방식 사용
+    reconnectionAttempts: 5, // 재연결 시도 횟수
+    reconnectionDelay: 1000, // 재연결 대기 시간 (ms)
+    timeout: 20000, // 연결 타임아웃 (ms)
+    autoConnect: true, // 자동 연결 시도
+});
+
+// 서버와 연결 성공 시
+socket.on("connect", () => {
+    console.log(`Socket 연결 성공: ${socket.id}`);
+});
+
+// 서버와 연결 끊김 시
+socket.on("disconnect", () => {
+    console.log("Socket 연결 끊김");
+});
 
 // 사용자명 입력 후 게임 참가 요청
 const username = prompt("사용자명을 입력하세요:");
@@ -31,7 +47,8 @@ let keys = {};
 document.addEventListener("keydown", (e) => {
     keys[e.key] = true;
     // 스페이스바로 총알 발사 (한 번만 발사하도록 추가 제어 가능)
-    if (e.key === " ") {
+    if (e.code === "Space") {
+        // 총알 발사: 현재 플레이어 위치에서 총알 생성
         socket.emit("shoot", { x: localPlayer.x, y: localPlayer.y });
     }
 });
@@ -41,6 +58,7 @@ document.addEventListener("keyup", (e) => {
 
 // 매 프레임 업데이트: 플레이어 이동 후 서버에 전송
 function update() {
+    // 플레이어 이동
     if (keys["ArrowLeft"] && localPlayer.x > 15) {
         localPlayer.x -= localPlayer.speed;
     }
@@ -53,6 +71,14 @@ function update() {
     if (keys["ArrowDown"] && localPlayer.y < canvas.height - 30) {
         localPlayer.y += localPlayer.speed;
     }
+
+    // 총알 이동
+    bullets.forEach((bullet) => {
+        bullet.y += bullet.vy; // y축 이동
+        bullet.x += bullet.vx; // x축 이동 (필요 시)
+    });
+
+    // 서버에 플레이어 위치 전송
     socket.emit("playerAction", {
         username,
         x: localPlayer.x,
@@ -61,17 +87,25 @@ function update() {
 }
 
 // 우주선(삼각형) 그리기 함수
-function drawSpaceship(x, y, color) {
+function drawSpaceship(x, y, color, direction = "up") {
     ctx.fillStyle = color;
     ctx.beginPath();
-    ctx.moveTo(x, y - 20);
-    ctx.lineTo(x - 15, y + 20);
-    ctx.lineTo(x + 15, y + 20);
+    if (direction === "up") {
+        // 상단 방향
+        ctx.moveTo(x, y - 20);
+        ctx.lineTo(x - 15, y + 20);
+        ctx.lineTo(x + 15, y + 20);
+    } else {
+        // 하단 방향
+        ctx.moveTo(x, y + 20);
+        ctx.lineTo(x - 15, y - 20);
+        ctx.lineTo(x + 15, y - 20);
+    }
     ctx.closePath();
     ctx.fill();
 }
 
-// 총알 그리기 함수
+// 총알 렌더링
 function drawBullets() {
     ctx.fillStyle = "yellow";
     bullets.forEach((bullet) => {
@@ -88,20 +122,30 @@ function drawScore() {
     ctx.fillText(`Score: ${localPlayer.score}`, 10, 25);
 }
 
+// 피격 메시지 표시를 위한 변수
+let hitMessage = "";
+let hitMessageTimeout = null;
+
 // 전체 그리기
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    // 로컬 플레이어 (흰색)
-    drawSpaceship(localPlayer.x, localPlayer.y, "white");
-    // 다른 플레이어 (빨간색)
+    // 로컬 플레이어 (흰색, 상단 방향)
+    drawSpaceship(localPlayer.x, localPlayer.y, "white", "up");
+    // 다른 플레이어 (빨간색, 하단 방향)
     for (let uname in otherPlayers) {
         let p = otherPlayers[uname];
-        drawSpaceship(p.x, p.y, "red");
+        drawSpaceship(p.x, p.y, "red", "down");
     }
     // 총알 렌더링
     drawBullets();
     // 점수 표시
     drawScore();
+    // 피격 메시지 표시
+    if (hitMessage) {
+        ctx.fillStyle = "red";
+        ctx.font = "20px Arial";
+        ctx.fillText(hitMessage, canvas.width / 2 - 100, canvas.height / 2);
+    }
 }
 
 // 게임 루프
@@ -112,7 +156,7 @@ function gameLoop() {
 }
 gameLoop();
 
-// 서버로부터 업데이트 이벤트 수신
+// 서버로부터 총알 업데이트 이벤트 수신
 socket.on("bulletUpdate", (data) => {
     bullets = data;
 });
@@ -128,9 +172,13 @@ socket.on("playersUpdate", (playersData) => {
     });
 });
 
-// 히트 이벤트: 피격 당했을 경우 알림
+// 히트 이벤트: 피격 당했을 경우 메시지 표시
 socket.on("playerHit", (data) => {
-    alert(`당신이 ${data.shooter}에게 피격당했습니다!`);
+    hitMessage = `${data.shooter}에게 피격당했습니다!`;
+    clearTimeout(hitMessageTimeout); // 기존 타이머 초기화
+    hitMessageTimeout = setTimeout(() => {
+        hitMessage = ""; // 일정 시간 후 메시지 제거
+    }, 3000); // 3초 동안 메시지 표시
 });
 
 // 점수 업데이트 (개별 알림 등 추가 가능)
@@ -179,4 +227,9 @@ socket.on("disconnect", (reason) => {
         // 클라이언트에서 연결을 종료한 경우
         alert("연결이 종료되었습니다.");
     }
+});
+
+// 서버에서 전송된 로그 이벤트 수신
+socket.on("log", (data) => {
+    console.log(`[${data.event}] ${data.message}`);
 });

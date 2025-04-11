@@ -5,5 +5,7 @@
     "scripts": {
         "start": "serve public"
     },
-    "dependencies": {}
+    "dependencies": {
+        "socket.io-client": "^4.0.0"
+    }
 }

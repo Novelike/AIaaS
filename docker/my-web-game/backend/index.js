@@ -8,7 +8,9 @@ const gameRoutes = require("./routes/gameRoutes");
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
-    cors: { origin: "*" },
+    cors: {
+        origin: "*", // 모든 도메인 허용
+    },
 });
 
 // 미들웨어
@@ -77,8 +79,15 @@ setInterval(() => {
 io.on("connection", (socket) => {
     console.log("새로운 클라이언트 접속:", socket.id);
 
+    // 클라이언트 연결 확인
+    socket.emit("log", {
+        event: "connection",
+        message: `서버와 연결되었습니다. Socket ID: ${socket.id}`,
+    });
+
     // 플레이어 참가 시 상태 초기화
     socket.on("joinGame", (data) => {
+        console.log(`joinGame 이벤트 수신: ${JSON.stringify(data)}`);
         players[socket.id] = {
             username: data.username,
             x: 400, // 화면 중앙
@@ -91,26 +100,50 @@ io.on("connection", (socket) => {
 
     // 플레이어 이동 처리
     socket.on("playerAction", (data) => {
+        console.log(`playerAction 이벤트 수신: ${JSON.stringify(data)}`);
         if (players[socket.id]) {
             players[socket.id].x = data.x;
             players[socket.id].y = data.y;
+
+            // 모든 클라이언트에 플레이어 상태 업데이트
             io.emit("playersUpdate", Object.values(players));
+
+            // 클라이언트로 이동 이벤트 로그 전송
+            io.to(socket.id).emit("log", {
+                event: "playerAction",
+                message: `Player ${players[socket.id].username} moved to (${
+                    data.x
+                }, ${data.y})`,
+            });
         }
     });
 
     // 총알 발사 처리
     socket.on("shoot", (data) => {
         if (!players[socket.id]) return;
+
+        const isLocalPlayer = players[socket.id].username === data.username;
+
         const bullet = {
             id: Date.now() + Math.random(),
             shooter: players[socket.id].username,
             x: data.x,
             y: data.y,
             vx: 0,
-            vy: -10, // 위쪽으로 발사
+            vy: isLocalPlayer ? -10 : 10, // 로컬 플레이어는 상단(-10), 다른 플레이어는 하단(10)
         };
         bullets.push(bullet);
+
+        // 모든 클라이언트에 총알 상태 업데이트
         io.emit("bulletUpdate", bullets);
+
+        // 클라이언트로 총알 발사 이벤트 로그 전송
+        io.to(socket.id).emit("log", {
+            event: "shoot",
+            message: `Player ${
+                players[socket.id].username
+            } fired a bullet from (${data.x}, ${data.y})`,
+        });
     });
 
     // 연결 해제 시 플레이어 제거

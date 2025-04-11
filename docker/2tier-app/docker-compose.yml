@@ -14,7 +14,7 @@ services:
 
     db:
         build: ./db
-        container_name: 2tier-db
+        container_name: lunarizero/2tier-db
         ports:
             - "3306:3306"
         environment:
